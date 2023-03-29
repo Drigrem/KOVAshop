@@ -1,4 +1,22 @@
 {% extends "base.html" %}
 
+{% block style %}
+    <link rel="stylesheet" href="{{url_for('static', filename='css/intro.css')}}">
+{% endblock %}
+
 {% block body %}
+    <section class="intro">
+        <div class="container">
+            <div class="intro__inner">
+                <div class="intro__text">
+                    <div class="title">Привет</div>
+                    <div class="suptitle">Мы научим тебя создавать<br> сайты с нуля</div>
+                    <button class="intro__button">Начать</button>
+                </div>
+                <div class="intro__img">
+                    <img class="laptop" src="{{ url_for('static', filename='images/laptop.png') }}" alt="Пример">
+                </div>
+            </div>
+        </div>
+    </section>
 {% endblock %}

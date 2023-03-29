@@ -1,7 +1,10 @@
 .header {
+    width: 100%;
+    position: fixed;
     display: grid;
     place-items: center;
-    height: 80px;
+    height: 60px;
+    backdrop-filter: blur(5px); /* размытие */
 }
 
 .header__inner {
@@ -13,14 +16,14 @@
 
 .logo {
     text-transform: uppercase;
-    color: #fff;
-    font-size: 50px;
+    color: #3bceca;
+    font-size: 40px;
 }
 
 .nav__link {
     text-decoration: none;
-    font-size: 18px;
-    color: #fff;
+    font-size: 16px;
+    color: #3bceca;
 }
 
 .nav__link:not(:first-child) {
@@ -28,7 +31,7 @@
 }
 
 .auth, .register {
-    color: #fff;
+    color: #3bceca;
     transition: .2s linear;
     cursor: pointer;
 }
@@ -36,12 +39,13 @@
 .auth {
     padding: 10px 15px;
     border-radius: 20px;
-    border: 1px solid #7850ff;
+    border: 1px solid #3bceca;
     margin-right: 10px;
 }
 
 .auth:hover {
-    background: #7850ff;
+    background: #3bceca;
+    color: #00101c;
 }
 
 .register {
