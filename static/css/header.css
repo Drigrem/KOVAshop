@@ -1,0 +1,53 @@
+.header {
+    display: grid;
+    place-items: center;
+    height: 80px;
+}
+
+.header__inner {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 50px;
+}
+
+.nav__link {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+}
+
+.nav__link:not(:first-child) {
+    margin-left: 25px;
+}
+
+.auth, .register {
+    color: #fff;
+    transition: .2s linear;
+    cursor: pointer;
+}
+
+.auth {
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 1px solid #7850ff;
+    margin-right: 10px;
+}
+
+.auth:hover {
+    background: #7850ff;
+}
+
+.register {
+    opacity: 0.6;
+}
+
+.register:hover {
+    opacity: 1;
+}
