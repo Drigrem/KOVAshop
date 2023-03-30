@@ -1,7 +1,8 @@
 {% extends "base.html" %}
 
 {% block style %}
-    <link rel="stylesheet" href="{{url_for('static', filename='css/intro.css')}}">
+<link rel="stylesheet" href="{{url_for('static', filename='css/about.css')}}">    
+<link rel="stylesheet" href="{{url_for('static', filename='css/intro.css')}}">
 {% endblock %}
 
 {% block body %}
@@ -15,6 +16,19 @@
                 </div>
                 <div class="intro__img">
                     <img class="laptop" src="{{ url_for('static', filename='images/laptop.png') }}" alt="Пример">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="container">
+            <div class="card">
+            <div class="card__iner">
+                <div class="card__text">KOVA
+                     - это место, где вы можете
+                      приобрести курсы по веб-разработке,
+                       разработанные профессионалами с
+                        многолетним опытом в индустрии.</div>
                 </div>
             </div>
         </div>

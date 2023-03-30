@@ -1,0 +1,18 @@
+.about {
+    height: 100vh;
+}
+
+.card {
+    text-align: center;
+    padding: 50px;
+    width: 500px;
+    background: #0f0b2e;
+    border-radius: 35px;
+    box-shadow: 0px 0px 15px;
+}
+
+.card__text {
+    font-size: 20px;
+    color: #3bceca;
+    letter-spacing: 2px;
+}
